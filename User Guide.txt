@@ -1,75 +1,72 @@
-🧾 User Guide for the Restaurant Website
-📌 Introduction
+User Guide for the Restaurant Website
+====================================
 
+1. Introduction
+---------------
 Welcome to your restaurant website!
-This site is built using the Yummy Red template from ThemeWagon and has been enhanced with an AI-powered chatbot to improve customer interaction and support.
-🖥️ Website Structure
+This site is built using the Yummy Red template from ThemeWagon and enhanced with an AI-powered chatbot
+to improve customer interaction and support.
 
-    Home Page – Highlights your restaurant, signature dishes, and key information.
+2. Website Structure
+--------------------
+- Home Page: Highlights your restaurant, signature dishes, and key information.
+- Menu Page: Displays all food items with prices.
+- Reservation Page: Allows customers to book a table online.
+- About Page: Introduces your restaurant and team.
+- Contact Page: Provides contact form, address, and map.
+- AI Chatbot: Smart assistant to help customers in real time.
 
-    Menu Page – Displays all food items with prices.
+3. How to Use the AI Chatbot
+----------------------------
+Main Features:
+- Recommends dishes based on user preferences.
+- Answers frequently asked questions (location, hours, prices).
+- Assists users in booking tables or asking about offers.
+- Supports two languages: Arabic & English.
 
-    Reservation Page – Allows customers to book a table online.
+How to Train the Bot:
+- Edit bot-data.json or faq-data.js to add your own Q&A, dish names, or booking details.
+- Expand its knowledge by linking to an external database or API in future upgrades.
 
-    About Page – Introduces your restaurant and team.
+4. Customization Guide
+----------------------
+- Images: Located in the img/ folder. Replace with your restaurant photos using the same names or update paths in HTML files.
+- Colors & Fonts: Controlled through style.css. Change color schemes and typography to match your branding.
+- Text Content: Editable directly in HTML files like index.html, menu.html, etc.
 
-    Contact Page – Provides contact form, address, and map.
+5. Hosting the Website
+----------------------
+You can host the website easily on:
+- GitHub Pages
+- Netlify
+- Vercel
 
-    AI Chatbot – Smart assistant to help customers in real time.
+Each platform offers free plans suitable for small websites. Upload your files and follow their deployment instructions.
 
-🤖 How to Use the AI Chatbot
-🎯 Main Features:
+6. Key Files in the Project
+---------------------------
+File Name        | Description
+-----------------|--------------------------
+index.html       | Homepage
+menu.html        | Menu items page
+contact.html     | Contact information
+chatbot.js       | AI chatbot logic script
+bot-data.json    | Chatbot training data
+style.css        | CSS styling file
 
-    Recommends dishes based on user preferences.
+7. Frequently Asked Questions (FAQ)
+-----------------------------------
+Q: Can I change the restaurant name?
+A: Yes, replace the name in the HTML files such as index.html or header includes.
 
-    Answers frequently asked questions (location, hours, prices).
+Q: Can I disable the chatbot?
+A: Yes, remove or comment out the chatbot script inclusion (chatbot.js) in your HTML files.
 
-    Assists users in booking tables or asking about offers.
+Q: Does the website work offline?
+A: Yes, since it is a static site built with HTML, CSS, and JavaScript, it runs offline in the browser.
+   Note: forms and chatbots relying on APIs need internet access.
 
-    Supports two languages: Arabic & English.
+---
 
-🧠 How to Train the Bot:
-
-To personalize and improve the chatbot:
-
-    Edit bot-data.json or faq-data.js to add your own Q&A, dish names, or booking details.
-
-    You can expand its knowledge by linking to an external database or API in future upgrades.
-
-⚙️ Customization Guide
-
-    Images: Located in the img/ folder. Replace them with your restaurant photos using the same names or update paths in HTML.
-
-    Colors & Fonts: Controlled through style.css.
-
-    Text Content: Editable directly in HTML files like index.html, menu.html, etc.
-
-🌐 Hosting the Website
-
-You can host the website easily using:
-
-    GitHub Pages
-
-    Netlify
-
-    Vercel
-
-Each platform offers free plans for small websites.
-📁 Key Files in the Project
-File Name	Description
-index.html	Homepage
-menu.html	Menu items page
-contact.html	Contact information
-chatbot.js	AI chatbot logic
-bot-data.json	Chatbot training data
-style.css	CSS for styling the site
-❓ FAQ
-
-Can I change the restaurant name?
-Yes, just replace the name in the HTML files (index.html, header.html...).
-
-Can I disable the chatbot?
-Yes, remove or comment out the chatbot script (chatbot.js).
-
-Does the website work offline?
-Yes, since it’s a static HTML/CSS/JS website, it runs offline in a browser (except forms or chat APIs).
+Thank you for choosing our restaurant website template!
+If you have any questions or need support, please contact the developer or visit the documentation online.

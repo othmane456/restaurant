@@ -1,271 +1,528 @@
 [
-
   {
-    "questions": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening"],
+    "questions": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "welcome", "greetings"],
     "answer": "Hello! 👋 Welcome to Bella Cucina, your destination for authentic Italian cuisine. How can I assist you today?"
   },
   {
-    "questions": ["menu", "food", "dishes", "specials", "popular dishes"],
+    "questions": ["menu", "food", "dishes", "specials", "popular dishes", "what do you serve", "menu list"],
     "answer": "Our menu features a delicious selection of Italian classics like Margherita Pizza, Spaghetti Carbonara, Risotto alla Milanese, Lasagna, and fresh seasonal salads. Don't miss our Chef's daily special!"
   },
   {
-    "questions": ["ingredients", "allergy", "gluten", "vegan", "vegetarian", "nuts"],
+    "questions": ["ingredients", "allergy", "allergies", "gluten", "gluten-free", "vegan", "vegetarian", "nuts", "dairy", "lactose", "shellfish"],
     "answer": "We clearly mark dishes for common allergies and dietary preferences, including gluten-free, vegetarian, and vegan options. Please let us know if you have any specific allergies or dietary restrictions."
   },
   {
-    "questions": ["hours", "open", "close", "opening hours", "closing time"],
+    "questions": ["hours", "open", "close", "opening hours", "closing time", "working hours", "when are you open"],
     "answer": "We are open Monday to Saturday from 12:00 PM to 11:00 PM. We are closed on Sundays for rest and maintenance."
   },
   {
-    "questions": ["location", "address", "where", "find", "directions"],
+    "questions": ["location", "address", "where", "find", "directions", "how to get there", "map"],
     "answer": "Our restaurant is located at 123 Via Roma, Florence, Italy. Easily accessible by public transport with nearby parking available."
   },
   {
-    "questions": ["reservation", "book", "booking", "table", "reserve"],
+    "questions": ["reservation", "book", "booking", "table", "reserve", "make a reservation", "booking system"],
     "answer": "You can reserve a table by calling +39 055 1234567 or via our website's online booking system. We recommend booking in advance, especially for weekends."
   },
   {
-    "questions": ["delivery", "takeaway", "order", "home delivery"],
+    "questions": ["delivery", "takeaway", "order", "home delivery", "delivery areas", "delivery time"],
     "answer": "We offer delivery within Florence and surrounding areas. You can place orders via our website or by phone. Takeaway orders are also welcome with eco-friendly packaging."
   },
   {
-    "questions": ["events", "private dining", "celebrations", "parties", "meeting room"],
+    "questions": ["events", "private dining", "celebrations", "parties", "meeting room", "events hosting", "special events"],
     "answer": "We provide private dining rooms perfect for celebrations, business meetings, or special events. Contact us to discuss your needs and customize your experience."
   },
   {
-    "questions": ["music", "live music", "entertainment", "band"],
+    "questions": ["music", "live music", "entertainment", "band", "music nights"],
     "answer": "Enjoy live Italian music performances every Friday and Saturday evening, creating a warm and inviting atmosphere."
   },
   {
-    "questions": ["parking", "car", "parking lot", "parking space"],
-    "answer": "Ample parking spaces are available near the restaurant, though they can fill up during peak hours. We recommend using public transport or taxis during busy times."
+    "questions": ["parking", "car", "parking lot", "parking space", "valet", "parking fees"],
+    "answer": "Ample parking spaces are available near the restaurant, with free valet service. We recommend using public transport during busy hours."
   },
   {
-    "questions": ["payment", "pay", "cash", "credit card", "mobile payment"],
+    "questions": ["payment", "pay", "cash", "credit card", "debit card", "mobile payment", "apple pay", "google pay"],
     "answer": "We accept cash, all major credit and debit cards, as well as mobile payments like Apple Pay and Google Pay for your convenience."
   },
   {
-    "questions": ["covid", "coronavirus", "safety", "health measures", "sanitization"],
+    "questions": ["covid", "coronavirus", "safety", "health measures", "sanitization", "covid protocols", "mask policy"],
     "answer": "Your safety is our priority. We strictly follow all government health guidelines, including regular sanitization, social distancing, and staff health monitoring."
   },
   {
-    "questions": ["cancellation", "cancel", "policy", "refund"],
+    "questions": ["cancellation", "cancel", "policy", "refund", "booking cancellation", "reservation change"],
     "answer": "Please notify us at least 24 hours in advance if you need to cancel or reschedule your reservation. Refund policies depend on the booking method."
   },
   {
-    "questions": ["loyalty", "discount", "offers", "promotions", "membership"],
+    "questions": ["loyalty", "discount", "offers", "promotions", "membership", "rewards", "points program"],
     "answer": "Join our loyalty program to earn points, enjoy special discounts, and receive exclusive offers. Sign up in the restaurant or on our website."
   },
   {
-    "questions": ["kids", "children", "family", "child-friendly", "high chair"],
+    "questions": ["kids", "children", "family", "child-friendly", "high chair", "kids menu", "play area", "child activities"],
     "answer": "We welcome families with children! We offer a special children's menu, high chairs, and a cozy play area to keep your little ones entertained."
   },
   {
-    "questions": ["thank you", "thanks", "appreciate"],
+    "questions": ["thank you", "thanks", "appreciate", "thank you very much", "thanks a lot"],
     "answer": "You're very welcome! We're happy to help. If you have any other questions, feel free to ask anytime."
   },
   {
-    "questions": ["tips", "advice", "recommendations", "best time to visit"],
+    "questions": ["tips", "advice", "recommendations", "best time to visit", "suggestions"],
     "answer": "For the best experience, we recommend visiting during weekday evenings or booking in advance for weekends. Try our seasonal specials and enjoy our warm hospitality!"
   },
   {
-    "questions": ["chef", "chef's story", "team", "cook", "head chef"],
+    "questions": ["chef", "chef's story", "team", "cook", "head chef", "chef background", "chef experience"],
     "answer": "Our head chef, Chef Marco, brings over 20 years of experience in Italian cuisine, blending traditional flavors with modern culinary techniques."
   },
   {
-    "questions": ["privacy", "policy", "terms", "conditions", "data protection"],
+    "questions": ["privacy", "policy", "terms", "conditions", "data protection", "gdpr"],
     "answer": "We respect your privacy and protect your data according to GDPR regulations. For full details, visit the Privacy Policy page on our website."
   },
   {
-    "questions": ["jobs", "careers", "work", "employment", "hiring"],
+    "questions": ["jobs", "careers", "work", "employment", "hiring", "join us", "job openings"],
     "answer": "We're always looking for passionate individuals to join our team. Check our careers page or contact us for current openings."
   },
   {
-    "questions": ["local ingredients", "suppliers", "freshness", "organic"],
+    "questions": ["local ingredients", "suppliers", "freshness", "organic", "farm to table"],
     "answer": "We source our ingredients locally from trusted Italian farmers to ensure freshness and support local communities."
   },
   {
-    "questions": ["cooking methods", "traditional", "preparation"],
+    "questions": ["cooking methods", "traditional", "preparation", "recipe"],
     "answer": "Many of our dishes are prepared using traditional Italian cooking methods like wood-fired pizza ovens and slow-cooked sauces."
   },
   {
-    "questions": ["events", "workshops", "cooking classes", "special nights"],
+    "questions": ["workshops", "cooking classes", "special nights", "events", "cooking events"],
     "answer": "Join our monthly Italian cooking workshops or themed dinner nights to experience our culture in a fun and interactive way."
   },
   {
-    "questions": ["gift cards", "gifts", "vouchers"],
+    "questions": ["gift cards", "gifts", "vouchers", "gift certificates"],
     "answer": "Surprise your loved ones with our gift cards, perfect for any occasion. Available for purchase at the restaurant or online."
   },
   {
-    "questions": ["shipping", "delivery areas", "outside Florence"],
+    "questions": ["shipping", "delivery areas", "outside florence", "shipping policy"],
     "answer": "Currently, delivery is available within Florence, but we are expanding to nearby cities soon. Stay tuned for updates!"
   },
   {
-    "questions": ["sustainability", "eco-friendly", "environment"],
+    "questions": ["sustainability", "eco-friendly", "environment", "green practices", "environmentally friendly"],
     "answer": "Bella Cucina is committed to sustainability by using eco-friendly packaging and minimizing food waste."
   },
   {
-    "questions": ["drinks", "cocktails", "beverages", "wine", "tea"],
+    "questions": ["drinks", "cocktails", "beverages", "wine", "tea", "coffee", "espresso"],
     "answer": "Our beverage menu includes authentic Italian espresso, a fine selection of wines, and expertly crafted cocktails."
   },
   {
-    "questions": ["corporate booking", "business events", "special corporate offers", "company reservations"],
+    "questions": ["corporate booking", "business events", "special corporate offers", "company reservations", "corporate packages"],
     "answer": "We offer special booking options and packages tailored for corporate events and business meetings. Contact us for customized offers."
   },
   {
-    "questions": ["kids menu", "children meals", "family friendly"],
-    "answer": "We offer a special kids menu with healthy and tasty meals, plus high chairs and a play area to keep the little ones happy."
-  },
-  {
-    "questions": ["wifi", "internet", "connectivity"],
+    "questions": ["wifi", "internet", "connectivity", "free wifi"],
     "answer": "Free high-speed Wi-Fi is available throughout the restaurant for your convenience."
   },
   {
-    "questions": ["parking", "valet", "parking service"],
-    "answer": "We provide free parking and valet service for all our guests."
-  },
-  {
-    "questions": ["accessibility", "wheelchair", "disabled access"],
+    "questions": ["accessibility", "wheelchair", "disabled access", "accessible"],
     "answer": "Our restaurant is fully accessible, with ramps and facilities to accommodate guests with disabilities."
   },
   {
-    "questions": ["music nights", "live music", "entertainment"],
-    "answer": "Enjoy live traditional and contemporary Italian music every Friday and Saturday night."
-  },
-  {
-    "questions": ["payment methods", "cards accepted", "mobile payments"],
-    "answer": "We accept all major credit cards, mobile payments including Apple Pay and Google Pay, and cash."
-  },
-  {
-    "questions": ["reservation cancellation", "booking change", "modify reservation"],
-    "answer": "Reservations can be changed or canceled up to 24 hours before your booking time with no fees."
-  },
-  {
-    "questions": ["group dining", "large parties", "event hosting"],
+    "questions": ["group dining", "large parties", "event hosting", "groups", "private events"],
     "answer": "We accommodate large groups and private events with customized menus and dedicated spaces."
   },
   {
-    "questions": ["chef specials", "daily specials", "seasonal dishes"],
-    "answer": "Try our chef’s specials that change seasonally, featuring fresh, local ingredients and innovative recipes."
-  },
-  {
-    "questions": ["allergies", "food allergies", "special diets"],
-    "answer": "Please inform us of any allergies or dietary restrictions so we can prepare your meal safely."
-  },
-  {
-    "questions": ["loyalty program", "rewards", "points system"],
-    "answer": "Join our loyalty program to earn points on every purchase and enjoy exclusive rewards and discounts."
-  },
-  {
-    "questions": ["takeout", "pickup", "to go orders"],
+    "questions": ["takeout", "pickup", "to go orders", "carry out"],
     "answer": "Order your favorite dishes for pickup through our website or by phone."
   },
   {
-    "questions": ["gift shop", "souvenirs", "italian crafts"],
+    "questions": ["gift shop", "souvenirs", "italian crafts", "shop"],
     "answer": "Visit our gift shop for authentic Italian crafts, spices, and souvenirs to take home."
   },
   {
-    "questions": ["chef background", "experience", "training"],
-    "answer": "Our chef trained in Florence and Rome, combining traditional Italian flavors with international culinary techniques."
-  },
-  {
-    "questions": ["health measures", "sanitization", "covid protocols"],
-    "answer": "We follow strict health and sanitization protocols to ensure a safe dining environment for all guests."
-  },
-  {
-    "questions": ["chef recommendation", "best dishes", "popular meals"],
-    "answer": "Our chef recommends the Risotto alla Milanese and the Tiramisu as signature dishes loved by our guests."
-  },
-  {
-    "questions": ["sustainability", "eco-friendly", "green practices"],
-    "answer": "We are committed to sustainability by using locally sourced ingredients and minimizing waste with eco-friendly packaging."
-  },
-  {
-    "questions": ["parking fees", "is parking free", "parking cost"],
-    "answer": "Parking is completely free for all restaurant customers."
-  },
-  {
-    "questions": ["dress code", "what to wear", "attire"],
+    "questions": ["dress code", "what to wear", "attire", "clothing"],
     "answer": "Our dress code is smart casual; we recommend comfortable yet elegant attire for your visit."
   },
   {
-    "questions": ["pet friendly", "bring pets", "animals allowed"],
+    "questions": ["pet friendly", "bring pets", "animals allowed", "pets"],
     "answer": "Pets are welcome in our outdoor seating area. Please inform us in advance if you plan to bring your pet."
-  },
-  {
-    "questions": ["wifi speed", "internet quality", "online connectivity"],
-    "answer": "Enjoy fast and reliable free Wi-Fi with unlimited data throughout the restaurant."
-  },
-  {
-    "questions": ["kids entertainment", "play area", "child activities"],
-    "answer": "We offer a supervised kids play area with games and activities to keep your children entertained."
-  },
-  {
-    "questions": ["chef's story", "restaurant history", "about us"],
-    "answer": "Bella Cucina was founded in 2010, inspired by traditional Italian flavors combined with modern culinary techniques."
-  },
-  {
-    "questions": ["parking accessibility", "disabled parking", "handicap spots"],
-    "answer": "We provide dedicated accessible parking spots close to the entrance for guests with disabilities."
-  },
-  {
-    "questions": ["event catering", "off-site catering", "party catering"],
-    "answer": "We offer catering services for private events, weddings, and corporate parties both onsite and offsite."
-  },
-  {
-    "questions": ["menu allergens", "gluten info", "nut allergies"],
-    "answer": "Allergen information is clearly listed on our menu; please ask our staff for detailed guidance."
-  },
-  {
-    "questions": ["takeaway hours", "order pickup times", "pickup schedule"],
-    "answer": "Takeaway orders can be picked up during regular opening hours from 12 PM to 10 PM."
-  },
-  {
-    "questions": ["gift cards", "vouchers", "buy gift cards"],
-    "answer": "Gift cards are available for purchase online and in the restaurant, perfect for any occasion."
-  },
-  {
-    "questions": ["chef's specialties", "signature dishes", "house specials"],
-    "answer": "Our house specials include the Spaghetti alla Carbonara and the Classic Tiramisu, made fresh daily."
-  },
-  {
-    "questions": ["music playlist", "background music", "ambiance"],
-    "answer": "Enjoy a curated playlist of Italian and world music to enhance your dining experience."
-  },
-  {
-    "questions": ["reservations online", "book table online", "online booking"],
-    "answer": "Easily book your table online through our website or popular reservation platforms."
   },
   {
     "questions": ["parking security", "is parking safe", "parking surveillance"],
     "answer": "Our parking area is monitored 24/7 by security cameras for your peace of mind."
   },
   {
-    "questions": ["special occasions", "birthday parties", "celebrations"],
+    "questions": ["special occasions", "birthday parties", "celebrations", "weddings", "anniversaries"],
     "answer": "Celebrate your special occasions with us! We offer customizable menus and decorations."
   },
   {
-    "questions": ["restaurant hours", "opening times", "closing times"],
-    "answer": "We are open Monday through Saturday, from 12 PM to 11 PM, closed on Sundays."
+    "questions": ["contact info", "phone number", "email", "contact details"],
+    "answer": "Contact us at +39 055 1234567 or email info@bellacucina.it for inquiries and bookings."
   },
   {
-    "questions": ["contact info", "phone number", "email"],
-    "answer": "Contact us at +39 055 1234567 or email info@bellacucina.it for inquiries and bookings."
+    "questions": ["cryptocurrency", "bitcoin payment", "digital wallet", "paypal", "payment methods"],
+    "answer": "We accept various digital payment methods including PayPal, Apple Pay, Google Pay, and are exploring cryptocurrency options for future payments."
+  },
+  {
+    "questions": ["data security", "privacy concerns", "data usage", "cookies policy"],
+    "answer": "We respect your privacy and use industry-standard measures to protect your data. For details, please refer to our Privacy Policy page."
+  },
+  {
+    "questions": ["diabetic options", "low sugar food", "heart-friendly meals"],
+    "answer": "We offer meals suitable for specific health needs like diabetic-friendly dishes and low-sodium options. Please notify us when ordering."
+  },
+  {
+    "questions": ["customer support", "complaints", "feedback", "contact support"],
+    "answer": "For any feedback or concerns, please contact our customer support at support@bellacucina.it or call +39 055 1234567."
+  },
+  {
+    "questions": ["baby food", "kids entertainment", "family seating", "strollers allowed"],
+    "answer": "We provide baby food options and have a dedicated family seating area. Strollers are welcome in our spacious restaurant."
+  },
+  {
+    "questions": ["service animals", "pet allergies", "pet policy"],
+    "answer": "Service animals are always welcome. For pets in outdoor seating, please check our pet policy to ensure comfort for all guests."
+  },
+  {
+    "questions": ["busy hours", "wait times", "best time to visit"],
+    "answer": "Our busiest hours are Friday and Saturday evenings. For a quicker experience, consider visiting on weekday afternoons."
+  },
+  {
+    "questions": ["group booking policy", "large party reservations", "group discounts"],
+    "answer": "We accept group reservations of 10 or more guests. Please contact us in advance for special arrangements and possible discounts."
+  },
+  {
+    "questions": ["holiday menu", "Christmas specials", "New Year's Eve events"],
+    "answer": "We offer special menus and events during holidays like Christmas and New Year's Eve. Stay tuned to our website for announcements."
+  },
+  {
+    "questions": ["internships", "training programs", "career growth"],
+    "answer": "We provide internship and training opportunities for aspiring chefs and hospitality professionals. Visit our careers page for details."
+  },
+  {
+    "questions": ["do you have vegan desserts", "vegan sweets", "dessert options vegan"],
+    "answer": "Yes, we offer a variety of delicious vegan desserts such as sorbet, fruit tarts, and chocolate avocado mousse."
+  },
+  {
+    "questions": ["can I see nutritional info", "nutrition facts", "calories info", "healthy options"],
+    "answer": "Nutritional information is available on our website for all dishes to help you make informed choices."
+  },
+  {
+    "questions": ["do you have gluten-free pasta", "gluten-free dishes", "gluten intolerance options"],
+    "answer": "Absolutely! We provide gluten-free pasta and many other gluten-free meal options."
+  },
+  {
+    "questions": ["do you cater for weddings", "wedding catering", "wedding menus"],
+    "answer": "Yes, we offer specialized catering services for weddings with customizable menus to suit your preferences."
+  },
+  {
+    "questions": ["is there a dress code", "what to wear", "attire requirements"],
+    "answer": "Our dress code is smart casual to ensure a pleasant dining atmosphere for everyone."
+  },
+  {
+    "questions": ["can I host a birthday party", "birthday celebrations", "party bookings"],
+    "answer": "We happily host birthday parties with special packages and decorations upon request."
+  },
+  {
+    "questions": ["do you have outdoor seating", "patio dining", "open air seats"],
+    "answer": "Yes, we have a beautiful outdoor seating area perfect for enjoying meals in the fresh air."
+  },
+  {
+    "questions": ["is parking free", "parking cost", "valet parking price"],
+    "answer": "Parking near our restaurant is free, and we also offer complimentary valet service during peak hours."
+  },
+  {
+    "questions": ["do you offer wine tasting events", "wine events", "sommelier sessions"],
+    "answer": "We host regular wine tasting events led by our sommelier to introduce you to the finest Italian wines."
+  },
+  {
+    "questions": ["can I get a gift card", "gift vouchers", "buy gift card"],
+    "answer": "Gift cards are available for purchase at our restaurant or online, perfect for gifting loved ones."
+  },
+  {
+    "questions": ["do you have kids menu", "children meals", "food for kids"],
+    "answer": "Yes, we offer a specially designed kids menu with healthy and tasty options for children."
+  },
+  {
+    "questions": ["are pets allowed inside", "can I bring my dog", "pet policy"],
+    "answer": "Pets are welcome in our outdoor seating area, but not allowed inside the main dining room."
+  },
+  {
+    "questions": ["do you have live music", "entertainment schedule", "live bands"],
+    "answer": "We feature live music every Friday and Saturday night to enhance your dining experience."
+  },
+  {
+    "questions": ["is the restaurant wheelchair accessible", "disabled access", "accessibility options"],
+    "answer": "Our restaurant is fully wheelchair accessible, including ramps and adapted restrooms."
+  },
+  {
+    "questions": ["can I reserve a private room", "private dining", "exclusive rooms"],
+    "answer": "Private dining rooms are available for groups and special occasions upon reservation."
+  },
+  {
+    "questions": ["what are your covid safety measures", "covid protocols", "sanitization policies"],
+    "answer": "We strictly follow all local health guidelines, including regular sanitization, mask policies, and social distancing."
+  },
+  {
+    "questions": ["do you serve breakfast", "morning menu", "early hours food"],
+    "answer": "Currently, we serve lunch and dinner; breakfast service is coming soon."
+  },
+  {
+    "questions": ["can I order online", "online ordering", "website orders"],
+    "answer": "Yes, you can place orders for delivery or pickup directly from our website."
+  },
+  {
+    "questions": ["how long does delivery take", "delivery time", "order arrival time"],
+    "answer": "Delivery usually takes between 30 to 45 minutes depending on your location."
+  },
+  {
+    "questions": ["are your ingredients organic", "organic food", "natural ingredients"],
+    "answer": "We source many ingredients locally and prioritize organic and sustainable products."
+  },
+  {
+    "questions": ["do you have parking security", "is parking safe", "parking surveillance"],
+    "answer": "Our parking area is monitored 24/7 with security cameras to ensure the safety of your vehicle."
+  },
+  {
+    "questions": ["do you offer cooking classes", "culinary workshops", "learn to cook Italian"],
+    "answer": "Join our monthly cooking workshops to learn how to prepare authentic Italian dishes with our chef."
+  },
+  {
+    "questions": ["can I bring my own wine", "corkage fee", "BYOB policy"],
+    "answer": "We allow guests to bring their own wine for a corkage fee. Please contact us for details."
+  },
+  {
+    "questions": ["do you have vegan cheese", "vegan alternatives", "dairy-free cheese"],
+    "answer": "Yes, we offer vegan cheese alternatives in selected dishes."
+  },
+  {
+    "questions": ["what are your busiest hours", "peak times", "best time to visit"],
+    "answer": "Our busiest times are Friday and Saturday evenings. For a quieter experience, visit weekdays."
+  },
+  {
+    "questions": ["can I customize my order", "special requests", "modify dishes"],
+    "answer": "We are happy to accommodate special requests or modifications where possible. Just ask our staff."
+  },
+  {
+    "questions": ["do you have parking for bikes", "bike racks", "cycle parking"],
+    "answer": "Yes, bike racks are available at the entrance for cyclists."
+  },
+  {
+    "questions": ["do you have desserts for diabetics", "low sugar desserts", "diabetic-friendly sweets"],
+    "answer": "We offer a selection of low-sugar and diabetic-friendly desserts. Please inquire with your server."
+  },
+  {
+    "questions": ["is there a loyalty program", "reward points", "membership discounts"],
+    "answer": "Join our loyalty program to earn points and receive exclusive discounts and offers."
+  },
+  {
+    "questions": ["do you host corporate events", "business meetings", "company parties"],
+    "answer": "Yes, we provide tailored services for corporate events and meetings with customizable menus."
+  },
+  {
+    "questions": ["do you have free wifi", "internet access", "connectivity"],
+    "answer": "Free high-speed Wi-Fi is available throughout the restaurant."
+  },
+  {
+    "questions": ["can I pay with cryptocurrency", "bitcoin payments", "digital currency"],
+    "answer": "We are currently exploring cryptocurrency payments and will update you soon."
+  },
+  {
+    "questions": ["do you offer takeout containers", "eco-friendly packaging", "to-go boxes"],
+    "answer": "We use eco-friendly and biodegradable packaging for all takeout orders."
+  },
+  {
+    "questions": ["can I order gift cards online", "e-gift cards", "buy gift certificates"],
+    "answer": "Yes, gift cards can be purchased online and sent digitally or physically."
+  },
+  {
+    "questions": ["do you have nut-free options", "allergy-safe food", "no nuts dishes"],
+    "answer": "We have dedicated nut-free dishes and take allergies seriously to ensure your safety."
+  },
+  {
+    "questions": ["do you serve alcohol", "bar menu", "cocktails"],
+    "answer": "Our full bar offers a wide selection of wines, beers, and expertly crafted cocktails."
+  },
+  {
+    "questions": ["do you have seasonal menus", "special menus", "limited time dishes"],
+    "answer": "We update our menu seasonally to highlight fresh, local ingredients and special dishes."
+  },
+  {
+    "questions": ["can I book a chef’s table", "special dining experience", "exclusive seating"],
+    "answer": "Our chef’s table offers an exclusive dining experience by reservation only."
+  },
+  {
+    "questions": ["are reservations required", "booking policy", "do I need a reservation"],
+    "answer": "Reservations are recommended, especially on weekends and holidays."
+  },
+  {
+    "questions": ["do you offer discounts for students", "student offers", "student promotions"],
+    "answer": "We provide special discounts for students upon presenting a valid ID."
+  },
+  {
+    "questions": ["do you support sustainable practices", "environment friendly", "green restaurant"],
+    "answer": "We are committed to sustainability through waste reduction and eco-friendly sourcing."
+  },
+  {
+    "questions": ["can I order alcohol for delivery", "deliver beer", "wine delivery"],
+    "answer": "Alcohol delivery is available where legally permitted. Please check local laws."
+  },
+  {
+    "questions": ["do you have allergen info on menu", "food allergens", "allergy warnings"],
+    "answer": "Allergen information is clearly indicated on our menus for your safety."
+  },
+  {
+    "questions": ["can I pay contactless", "tap to pay", "mobile payments"],
+    "answer": "We accept contactless payments including Apple Pay, Google Pay, and NFC cards."
+  },
+  {
+    "questions": ["do you offer desserts to-go", "takeaway sweets", "dessert takeaway"],
+    "answer": "Desserts are available for takeaway in eco-friendly packaging."
+  },
+  {
+    "questions": ["do you have halal options", "halal food", "halal certified"],
+    "answer": "We offer some halal-certified dishes; please inquire with our staff."
+  },
+  {
+    "questions": ["can I bring children", "kids allowed", "family friendly"],
+    "answer": "Families are warmly welcomed, and we have facilities for children."
+  },
+  {
+    "questions": ["do you have vegan wine", "vegan-friendly drinks", "non-animal products wine"],
+    "answer": "Yes, we offer a selection of vegan-certified wines."
+  },
+  {
+    "questions": ["what payment methods do you accept", "payment options", "how can I pay"],
+    "answer": "We accept cash, major credit/debit cards, mobile payments, and gift cards."
+  },
+  {
+    "questions": ["can I bring my own cake", "BYO cake", "cake policy"],
+    "answer": "Bringing your own cake is allowed with a small corkage fee. Please inform us in advance."
+  },
+  {
+    "questions": ["do you have daily specials", "chef specials", "today's menu"],
+    "answer": "We feature daily specials made with fresh, seasonal ingredients."
+  },
+  {
+    "questions": ["are tips included", "gratuity policy", "service charge"],
+    "answer": "Tips are appreciated but not included; service charge applies for large groups."
+  },
+  {
+    "questions": ["can I order catering for events", "catering services", "event food service"],
+    "answer": "We offer full catering services for events of all sizes."
+  },
+  {
+    "questions": ["do you have a newsletter", "email updates", "news and offers"],
+    "answer": "Subscribe to our newsletter for the latest news, offers, and event announcements."
+  },
+  {
+    "questions": ["can I see reviews", "customer testimonials", "ratings"],
+    "answer": "You can find customer reviews on our website and popular review platforms."
+  },
+  {
+    "questions": ["do you offer group discounts", "bulk order discounts", "large party deals"],
+    "answer": "Group discounts are available for parties over 10 guests with prior arrangement."
+  },
+  {
+    "questions": ["what is the wait time without reservation", "walk-in wait", "no booking wait"],
+    "answer": "Wait times vary, but walk-in guests are welcome and seated as tables become available."
+  },
+  {
+    "questions": ["do you have seasonal cocktails", "special drinks", "limited edition beverages"],
+    "answer": "Our bar offers seasonal cocktails inspired by local flavors and traditions."
+  },
+  {
+    "questions": ["is your seafood fresh", "fresh fish", "daily seafood delivery"],
+    "answer": "We source fresh seafood daily from trusted local suppliers."
+  },
+  {
+    "questions": ["do you recycle", "waste management", "environmental responsibility"],
+    "answer": "We actively recycle and follow best practices in waste management."
+  },
+  {
+    "questions": ["do you provide nutritional advice", "dietitian consultation", "healthy eating guidance"],
+    "answer": "Our staff can provide basic nutritional info; for personalized advice, consult a dietitian."
+  },
+  {
+    "questions": ["can I host private dinners", "exclusive events", "private parties"],
+    "answer": "Private dinners can be arranged with tailored menus and dedicated staff."
+  },
+  {
+    "questions": ["what type of cuisine do you serve", "food style", "cooking tradition"],
+    "answer": "We specialize in authentic Italian cuisine with a modern twist."
+  },
+  {
+    "questions": ["do you have seasonal decorations", "holiday decor", "special occasion atmosphere"],
+    "answer": "Our restaurant is beautifully decorated according to seasons and holidays."
+  },
+  {
+    "questions": ["can I donate leftover food", "food waste donation", "charity"],
+    "answer": "We partner with local charities to donate leftover food responsibly."
+  },
+  {
+    "questions": ["are pets allowed in outdoor area", "dog friendly", "pet seating"],
+    "answer": "Pets are welcome in our outdoor seating area with water bowls provided."
+  },
+  {
+    "questions": ["do you offer birthday cakes", "special cakes", "custom cakes"],
+    "answer": "Custom birthday cakes can be ordered with advance notice."
+  },
+  {
+    "questions": ["can I bring a large group", "party bookings", "events for many people"],
+    "answer": "We accommodate large groups with advance booking and special menus."
+  },
+  {
+    "questions": ["do you have discounts for seniors", "elderly discounts", "senior specials"],
+    "answer": "Special discounts are available for seniors on certain days."
+  },
+  {
+    "questions": ["is smoking allowed", "smoking policy", "smoking areas"],
+    "answer": "Smoking is not permitted inside, but there is a designated outdoor smoking area."
+  },
+  {
+    "questions": ["can I use coupons", "discount codes", "promo codes"],
+    "answer": "We accept valid coupons and promo codes; please check terms and conditions."
+  },
+  {
+    "questions": ["do you have breakfast specials", "morning offers", "early bird menu"],
+    "answer": "Breakfast service will be available soon with special offers."
+  },
+  {
+    "questions": ["do you have a kids play area", "children activities", "entertainment for kids"],
+    "answer": "Yes, we have a safe and fun play area for children."
+  },
+  {
+    "questions": ["can I get catering for office", "office lunch", "work event catering"],
+    "answer": "We provide office catering with a variety of menu options."
+  },
+  {
+    "questions": ["do you support local farmers", "local sourcing", "community support"],
+    "answer": "We proudly source many ingredients from local farms and suppliers."
+  },
+  {
+    "questions": ["do you offer group cooking classes", "team building", "culinary workshops"],
+    "answer": "Group cooking classes are available for team building and fun experiences."
+  },
+  {
+    "questions": ["are tips included in the bill", "service charges", "gratuity"],
+    "answer": "Tips are not included in the bill but greatly appreciated."
+  },
+  {
+    "questions": ["can I schedule a food tasting", "menu preview", "taste before event"],
+    "answer": "Food tastings can be scheduled for large event bookings."
+  },
+  {
+    "questions": ["do you have parking for disabled", "handicap parking", "accessible parking"],
+    "answer": "Designated disabled parking spots are available close to the entrance."
+  },
+  {
+    "questions": ["do you offer vegetarian pasta", "vegetarian options", "meatless dishes"],
+    "answer": "We have many vegetarian pasta and other meatless dishes on the menu."
+  },
+  {
+    "questions": ["can I bring my own decorations", "party setup", "event decor"],
+    "answer": "Guests can bring their own decorations for private events with prior approval."
+  },
+  {
+    "questions": ["do you have live cooking stations", "interactive dining", "chef demonstrations"],
+    "answer": "We offer live cooking stations during special events for an interactive experience."
+  },
+  {
+    "questions": ["do you accept walk-ins", "no reservation needed", "spontaneous visit"],
+    "answer": "Walk-ins are welcome but reservations are recommended during busy times."
   }
+
+
 ]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

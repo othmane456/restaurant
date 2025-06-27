@@ -1216,6 +1216,18 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- زر Chat AI دائري عائم (يسار السفلي) -->
 <div id="chatbot-toggle" title="Open Chatbot">AI</div>
 
@@ -1225,151 +1237,190 @@
     position: fixed;
     bottom: 25px;
     left: 25px;
-    width: 72px;
-    height: 72px;
-    background: linear-gradient(135deg, #858585, #000000);
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #4caf50, #087f23);
     border-radius: 50%;
     color: #fff;
-    font-weight: 700;
+    font-weight: 900;
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    box-shadow: 0 6px 15px rgba(204, 43, 25, 0.6);
+    box-shadow: 0 10px 20px rgba(72, 180, 97, 0.75);
     user-select: none;
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease, background 0.3s ease;
     text-align: center;
-    padding: 0 8px;
-    letter-spacing: 1.2px;
+    letter-spacing: 1.4px;
+    z-index: 10000;
   }
-
-  /* تأثير المرور */
   #chatbot-toggle:hover {
-    transform: scale(1.15);
-    box-shadow: 0 8px 25px rgba(231, 23, 0, 0.85);
+    transform: scale(1.2) rotate(15deg);
+    box-shadow: 0 12px 35px rgba(56, 160, 72, 0.9);
+    background: linear-gradient(135deg, #2e7d32, #60ad5e);
   }
-
-  /* تكبير الزر في الشاشات الكبيرة */
+  @keyframes pulse {
+    0%, 100% {
+      box-shadow: 0 0 8px 3px rgba(76, 175, 80, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 18px 6px rgba(76, 175, 80, 0.9);
+    }
+  }
+  #chatbot-toggle {
+    animation: pulse 3s infinite ease-in-out;
+  }
   @media (min-width: 1024px) {
     #chatbot-toggle {
-      width: 90px;
-      height: 90px;
-      font-size: 22px;
-      letter-spacing: 1.5px;
-      padding: 0 10px;
+      width: 100px;
+      height: 100px;
+      font-size: 26px;
+      letter-spacing: 1.8px;
     }
   }
-
-  /* تصغير الزر في الشاشات الصغيرة جدًا */
   @media (max-width: 400px) {
     #chatbot-toggle {
-      width: 52px;
-      height: 52px;
-      font-size: 14px;
-      letter-spacing: 1px;
-      padding: 0 6px;
+      width: 56px;
+      height: 56px;
+      font-size: 16px;
+      letter-spacing: 1.1px;
     }
+  }
+  /* تصميم صندوق الدردشة */
+  #chatbot {
+    position: fixed;
+    bottom: 120px;
+    left: 25px;
+    width: 380px;
+    max-height: 520px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow:
+      0 0 0 4px #4caf50,
+      0 8px 30px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: none;
+    flex-direction: column;
+    z-index: 10001;
+    overflow: hidden;
+    border-top: 6px solid #4caf50;
+    user-select: none;
+  }
+  #chatbot > div:first-child {
+    background: linear-gradient(90deg, #087f23, #4caf50);
+    color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    font-weight: 900;
+    font-size: 20px;
+    user-select: none;
+    box-shadow: inset 0 -3px 8px rgba(0,0,0,0.15);
+  }
+  #chatbot > div:first-child img {
+    width: 32px;
+    height: 32px;
+  }
+  #chatbot-close {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 1;
+    color: #f44336;
+    transition: color 0.3s ease;
+  }
+  #chatbot-close:hover {
+    color: #b71c1c;
+  }
+  #chatbot-messages {
+    flex: 1;
+    padding: 22px 24px;
+    overflow-y: auto;
+    background: #f4fcf4;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: #a5d6a7 transparent;
+  }
+  #chatbot-messages::-webkit-scrollbar {
+    width: 8px;
+  }
+  #chatbot-messages::-webkit-scrollbar-thumb {
+    background-color: #81c784;
+    border-radius: 20px;
+  }
+  #chatbot > div:last-child {
+    display: flex;
+    border-top: 1px solid #ddd;
+    padding: 14px 20px;
+    background: #fff;
+  }
+  #chatbot-input {
+    flex: 1;
+    border: 2px solid #4caf50;
+    border-radius: 30px;
+    padding: 14px 24px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Poppins', sans-serif;
+  }
+  #chatbot-input:focus {
+    border-color: #087f23;
+    box-shadow: 0 0 12px #4caf50aa;
+  }
+  #chatbot-send {
+    background: #4caf50;
+    border: none;
+    margin-left: 16px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 6px 12px rgba(76, 175, 80, 0.6);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  #chatbot-send:hover {
+    background: #087f23;
+    transform: scale(1.1);
+  }
+  #chatbot-send svg {
+    fill: white;
+    width: 26px;
+    height: 26px;
   }
 </style>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Chatbot Container (مخفي بالبداية) -->
-<div id="chatbot" style="
-  position: fixed;
-  bottom: 100px;
-  left: 25px;
-  width: 360px;
-  max-height: 480px;
-  background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.25);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  display: none;
-  flex-direction: column;
-  z-index: 9999;
-  overflow: hidden;
-">
-  <!-- Header -->
-  <div style="
-    background: linear-gradient(90deg, hsl(0, 0%, 1%), #616161f1);
-    color: white;
-    padding: 14px 20px;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-weight: 700;
-    font-size: 18px;
-    user-select: none;
-  ">
-    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Logo" style="width:28px; height:28px;">
+<!-- Chatbot Container -->
+<div id="chatbot">
+  <div>
+    <img src="https://cdn-icons-png.flaticon.com/512/3075/3075977.png" alt="Logo" />
     <span>Altaayeb Chatbot</span>
-    <div id="chatbot-close" title="Close Chatbot" style="margin-left:auto; cursor:pointer; font-size: 24px; font-weight: 900; line-height: 1;">×</div>
+    <div id="chatbot-close" title="Close Chatbot">×</div>
   </div>
 
-  <!-- Messages -->
-  <div id="chatbot-messages" style="
-    flex: 1;
-    padding: 18px 20px;
-    overflow-y: auto;
-    background: #f9fdf9;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  "></div>
+  <div id="chatbot-messages"></div>
 
-  <!-- Input + Send Button -->
-  <div style="display: flex; border-top: 1px solid #ddd; padding: 12px 16px; background: #fff;">
-    <input id="chatbot-input" type="text" placeholder="Ask about Altaayeb Restaurant..." style="
-      flex: 1;
-      border: 1px solid #ccc;
-      border-radius: 25px;
-      padding: 12px 20px;
-      font-size: 15px;
-      outline: none;
-      transition: border-color 0.3s ease;
-    " />
-    <button id="chatbot-send" style="
-      background: #000000;
-      border: none;
-      margin-left: 12px;
-      border-radius: 50%;
-      width: 44px;
-      height: 44px;
-      cursor: pointer;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      box-shadow: 0 3px 8px rgba(226, 226, 226, 0.7);
-      transition: background-color 0.3s ease;
-    " title="Send Message" aria-label="Send Message">
-      <!-- أيقونة رسالة -->
-      <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="24px" viewBox="0 0 24 24" width="24px"><path d="M2,21L23,12L2,3V10L17,12L2,14V21Z"/></svg>
+  <div>
+    <input id="chatbot-input" type="text" placeholder="Ask about Altaayeb Restaurant..." autocomplete="off" />
+    <button id="chatbot-send" title="Send Message" aria-label="Send Message">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M2,21L23,12L2,3V10L17,12L2,14V21Z"/>
+      </svg>
     </button>
   </div>
 </div>
+
+<!-- Fuse.js CDN -->
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
 
 <script>
   const toggleBtn = document.getElementById('chatbot-toggle');
@@ -1379,39 +1430,42 @@
   const chatbotMessages = document.getElementById('chatbot-messages');
   const chatbotInput = document.getElementById('chatbot-input');
 
-  // متغير لتخزين الأسئلة والأجوبة من ملف JSON
   let qaPairs = [];
+  let fuse;
 
-  // تحميل بيانات الأسئلة والأجوبة من ملف JSON عند بداية تحميل الصفحة
+  // تحميل بيانات الأسئلة والأجوبة
   window.addEventListener('DOMContentLoaded', () => {
     fetch('restaurant_data.json')
-      .then(response => {
-        if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-        return response.json();
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP error! Status: ${res.status}`);
+        return res.json();
       })
       .then(data => {
         qaPairs = data;
+        // إعداد Fuse.js مع الأسئلة في المصفوفة
+        fuse = new Fuse(qaPairs, {
+          keys: ['questions'],
+          threshold: 0.3,
+          ignoreLocation: true,
+        });
         console.log('QA pairs loaded:', qaPairs);
       })
-      .catch(error => {
-        console.error('Failed to load QA pairs:', error);
+      .catch(err => {
+        console.error('Failed to load QA pairs:', err);
       });
   });
 
-  // تأثير حركة زر AI عند المرور بالماوس
+  // تحكم الزر العائم
   toggleBtn.addEventListener('mouseenter', () => {
-    toggleBtn.style.transform = 'scale(1.15) rotate(10deg)';
-    toggleBtn.style.boxShadow = '0 8px 25px rgba(39, 174, 96, 0.9)';
+    toggleBtn.style.transform = 'scale(1.2) rotate(15deg)';
+    toggleBtn.style.boxShadow = '0 12px 35px rgba(56, 160, 72, 0.9)';
   });
-
   toggleBtn.addEventListener('mouseleave', () => {
     toggleBtn.style.transform = 'scale(1) rotate(0deg)';
-    toggleBtn.style.boxShadow = '0 6px 15px rgba(39, 174, 96, 0.7)';
+    toggleBtn.style.boxShadow = '0 10px 20px rgba(72, 180, 97, 0.75)';
   });
-
-  // إظهار/إخفاء الشات بوت عند الضغط على زر AI
   toggleBtn.addEventListener('click', () => {
-    if(chatbot.style.display === 'flex'){
+    if (chatbot.style.display === 'flex') {
       chatbot.style.display = 'none';
     } else {
       chatbot.style.display = 'flex';
@@ -1419,99 +1473,88 @@
     }
   });
 
-  // إغلاق الشات بوت عند الضغط على زر الإغلاق
+  // إغلاق الشات بوت
   closeBtn.addEventListener('click', () => {
     chatbot.style.display = 'none';
   });
 
-  // وظيفة إضافة الرسائل مع انيميشن
+  // دالة تأثير الرسائل
   function animateMessage(msg) {
     msg.style.opacity = 0;
-    msg.style.transform = 'translateY(15px)';
+    msg.style.transform = 'translateY(20px)';
     setTimeout(() => {
-      msg.style.transition = 'all 0.3s ease';
+      msg.style.transition = 'all 0.35s cubic-bezier(0.4,0,0.2,1)';
       msg.style.opacity = 1;
       msg.style.transform = 'translateY(0)';
     }, 50);
   }
 
-  // إضافة رسالة إلى صندوق الدردشة
+  // إضافة رسالة في صندوق الدردشة
   function addMessage(text, fromUser = true) {
     const msg = document.createElement('div');
-    msg.style.padding = '10px 14px';
-    msg.style.borderRadius = '20px';
+    msg.style.padding = '12px 18px';
+    msg.style.borderRadius = '24px';
     msg.style.maxWidth = '75%';
     msg.style.wordWrap = 'break-word';
-    msg.style.fontSize = '14.5px';
-    msg.style.lineHeight = '1.3';
-    msg.style.boxShadow = '0 2px 5px rgba(0,0,0,0.1)';
+    msg.style.fontSize = '15px';
+    msg.style.lineHeight = '1.4';
+    msg.style.boxShadow = '0 3px 8px rgba(0,0,0,0.12)';
     msg.style.opacity = '0';
-    msg.style.transform = 'translateY(15px)';
-
+    msg.style.transform = 'translateY(20px)';
     if (fromUser) {
-      msg.style.backgroundColor = '#28a745';
-      msg.style.color = 'white';
+      msg.style.backgroundColor = '#388e3c';
+      msg.style.color = '#fff';
       msg.style.alignSelf = 'flex-end';
       msg.style.textAlign = 'right';
     } else {
-      msg.style.backgroundColor = '#e5e5ea';
-      msg.style.color = '#333';
+      msg.style.backgroundColor = '#e8f5e9';
+      msg.style.color = '#2e7d32';
       msg.style.alignSelf = 'flex-start';
       msg.style.textAlign = 'left';
     }
-
     msg.textContent = text;
     chatbotMessages.appendChild(msg);
     animateMessage(msg);
     chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
   }
 
-  // إرسال الرسالة (بتنشيط إما Enter أو الضغط على زر الإرسال)
+  // دالة إرسال الرسالة
   function sendMessage() {
-    const userTextRaw = chatbotInput.value.trim();
-    const userText = userTextRaw.toLowerCase();
-    if (!userText) return;
-    addMessage(userTextRaw, true);
+    const raw = chatbotInput.value.trim();
+    if (!raw) return;
+    addMessage(raw, true);
     chatbotInput.value = '';
 
-    if (qaPairs.length === 0) {
-      addMessage("Loading data, please try again in a moment...", false);
+    if (!fuse) {
+      addMessage("Loading data, please wait...", false);
       return;
     }
 
-    let answered = false;
-    for (const pair of qaPairs) {
-      for (const question of pair.questions) {
-        if (userText.includes(question)) {
-          addMessage(pair.answer, false);
-          answered = true;
-          break;
-        }
-      }
-      if (answered) break;
-    }
-    if (!answered) {
+    const userText = raw.toLowerCase();
+    const results = fuse.search(userText);
+
+    if (results.length > 0) {
+      // خذ أفضل نتيجة
+      addMessage(results[0].item.answer, false);
+    } else {
       addMessage("Sorry, I didn't understand that. Could you please rephrase?", false);
     }
   }
 
-  // ربط زر الإرسال
   sendBtn.addEventListener('click', sendMessage);
-
-  // ربط زر Enter في الحقل
-  chatbotInput.addEventListener('keypress', function(event) {
-    if (event.key === 'Enter') {
-      sendMessage();
-    }
+  chatbotInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') sendMessage();
   });
 
-  // رسالة ترحيب تلقائية عند تحميل الصفحة
   window.onload = () => {
     setTimeout(() => {
       addMessage("Hi! I'm Altaayeb's virtual assistant 🤖. Ask me anything about our restaurant!", false);
     }, 700);
   };
 </script>
+
+
+
 
 
 
