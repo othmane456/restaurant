@@ -1,0 +1,271 @@
+[
+
+  {
+    "questions": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening"],
+    "answer": "Hello! 👋 Welcome to Bella Cucina, your destination for authentic Italian cuisine. How can I assist you today?"
+  },
+  {
+    "questions": ["menu", "food", "dishes", "specials", "popular dishes"],
+    "answer": "Our menu features a delicious selection of Italian classics like Margherita Pizza, Spaghetti Carbonara, Risotto alla Milanese, Lasagna, and fresh seasonal salads. Don't miss our Chef's daily special!"
+  },
+  {
+    "questions": ["ingredients", "allergy", "gluten", "vegan", "vegetarian", "nuts"],
+    "answer": "We clearly mark dishes for common allergies and dietary preferences, including gluten-free, vegetarian, and vegan options. Please let us know if you have any specific allergies or dietary restrictions."
+  },
+  {
+    "questions": ["hours", "open", "close", "opening hours", "closing time"],
+    "answer": "We are open Monday to Saturday from 12:00 PM to 11:00 PM. We are closed on Sundays for rest and maintenance."
+  },
+  {
+    "questions": ["location", "address", "where", "find", "directions"],
+    "answer": "Our restaurant is located at 123 Via Roma, Florence, Italy. Easily accessible by public transport with nearby parking available."
+  },
+  {
+    "questions": ["reservation", "book", "booking", "table", "reserve"],
+    "answer": "You can reserve a table by calling +39 055 1234567 or via our website's online booking system. We recommend booking in advance, especially for weekends."
+  },
+  {
+    "questions": ["delivery", "takeaway", "order", "home delivery"],
+    "answer": "We offer delivery within Florence and surrounding areas. You can place orders via our website or by phone. Takeaway orders are also welcome with eco-friendly packaging."
+  },
+  {
+    "questions": ["events", "private dining", "celebrations", "parties", "meeting room"],
+    "answer": "We provide private dining rooms perfect for celebrations, business meetings, or special events. Contact us to discuss your needs and customize your experience."
+  },
+  {
+    "questions": ["music", "live music", "entertainment", "band"],
+    "answer": "Enjoy live Italian music performances every Friday and Saturday evening, creating a warm and inviting atmosphere."
+  },
+  {
+    "questions": ["parking", "car", "parking lot", "parking space"],
+    "answer": "Ample parking spaces are available near the restaurant, though they can fill up during peak hours. We recommend using public transport or taxis during busy times."
+  },
+  {
+    "questions": ["payment", "pay", "cash", "credit card", "mobile payment"],
+    "answer": "We accept cash, all major credit and debit cards, as well as mobile payments like Apple Pay and Google Pay for your convenience."
+  },
+  {
+    "questions": ["covid", "coronavirus", "safety", "health measures", "sanitization"],
+    "answer": "Your safety is our priority. We strictly follow all government health guidelines, including regular sanitization, social distancing, and staff health monitoring."
+  },
+  {
+    "questions": ["cancellation", "cancel", "policy", "refund"],
+    "answer": "Please notify us at least 24 hours in advance if you need to cancel or reschedule your reservation. Refund policies depend on the booking method."
+  },
+  {
+    "questions": ["loyalty", "discount", "offers", "promotions", "membership"],
+    "answer": "Join our loyalty program to earn points, enjoy special discounts, and receive exclusive offers. Sign up in the restaurant or on our website."
+  },
+  {
+    "questions": ["kids", "children", "family", "child-friendly", "high chair"],
+    "answer": "We welcome families with children! We offer a special children's menu, high chairs, and a cozy play area to keep your little ones entertained."
+  },
+  {
+    "questions": ["thank you", "thanks", "appreciate"],
+    "answer": "You're very welcome! We're happy to help. If you have any other questions, feel free to ask anytime."
+  },
+  {
+    "questions": ["tips", "advice", "recommendations", "best time to visit"],
+    "answer": "For the best experience, we recommend visiting during weekday evenings or booking in advance for weekends. Try our seasonal specials and enjoy our warm hospitality!"
+  },
+  {
+    "questions": ["chef", "chef's story", "team", "cook", "head chef"],
+    "answer": "Our head chef, Chef Marco, brings over 20 years of experience in Italian cuisine, blending traditional flavors with modern culinary techniques."
+  },
+  {
+    "questions": ["privacy", "policy", "terms", "conditions", "data protection"],
+    "answer": "We respect your privacy and protect your data according to GDPR regulations. For full details, visit the Privacy Policy page on our website."
+  },
+  {
+    "questions": ["jobs", "careers", "work", "employment", "hiring"],
+    "answer": "We're always looking for passionate individuals to join our team. Check our careers page or contact us for current openings."
+  },
+  {
+    "questions": ["local ingredients", "suppliers", "freshness", "organic"],
+    "answer": "We source our ingredients locally from trusted Italian farmers to ensure freshness and support local communities."
+  },
+  {
+    "questions": ["cooking methods", "traditional", "preparation"],
+    "answer": "Many of our dishes are prepared using traditional Italian cooking methods like wood-fired pizza ovens and slow-cooked sauces."
+  },
+  {
+    "questions": ["events", "workshops", "cooking classes", "special nights"],
+    "answer": "Join our monthly Italian cooking workshops or themed dinner nights to experience our culture in a fun and interactive way."
+  },
+  {
+    "questions": ["gift cards", "gifts", "vouchers"],
+    "answer": "Surprise your loved ones with our gift cards, perfect for any occasion. Available for purchase at the restaurant or online."
+  },
+  {
+    "questions": ["shipping", "delivery areas", "outside Florence"],
+    "answer": "Currently, delivery is available within Florence, but we are expanding to nearby cities soon. Stay tuned for updates!"
+  },
+  {
+    "questions": ["sustainability", "eco-friendly", "environment"],
+    "answer": "Bella Cucina is committed to sustainability by using eco-friendly packaging and minimizing food waste."
+  },
+  {
+    "questions": ["drinks", "cocktails", "beverages", "wine", "tea"],
+    "answer": "Our beverage menu includes authentic Italian espresso, a fine selection of wines, and expertly crafted cocktails."
+  },
+  {
+    "questions": ["corporate booking", "business events", "special corporate offers", "company reservations"],
+    "answer": "We offer special booking options and packages tailored for corporate events and business meetings. Contact us for customized offers."
+  },
+  {
+    "questions": ["kids menu", "children meals", "family friendly"],
+    "answer": "We offer a special kids menu with healthy and tasty meals, plus high chairs and a play area to keep the little ones happy."
+  },
+  {
+    "questions": ["wifi", "internet", "connectivity"],
+    "answer": "Free high-speed Wi-Fi is available throughout the restaurant for your convenience."
+  },
+  {
+    "questions": ["parking", "valet", "parking service"],
+    "answer": "We provide free parking and valet service for all our guests."
+  },
+  {
+    "questions": ["accessibility", "wheelchair", "disabled access"],
+    "answer": "Our restaurant is fully accessible, with ramps and facilities to accommodate guests with disabilities."
+  },
+  {
+    "questions": ["music nights", "live music", "entertainment"],
+    "answer": "Enjoy live traditional and contemporary Italian music every Friday and Saturday night."
+  },
+  {
+    "questions": ["payment methods", "cards accepted", "mobile payments"],
+    "answer": "We accept all major credit cards, mobile payments including Apple Pay and Google Pay, and cash."
+  },
+  {
+    "questions": ["reservation cancellation", "booking change", "modify reservation"],
+    "answer": "Reservations can be changed or canceled up to 24 hours before your booking time with no fees."
+  },
+  {
+    "questions": ["group dining", "large parties", "event hosting"],
+    "answer": "We accommodate large groups and private events with customized menus and dedicated spaces."
+  },
+  {
+    "questions": ["chef specials", "daily specials", "seasonal dishes"],
+    "answer": "Try our chef’s specials that change seasonally, featuring fresh, local ingredients and innovative recipes."
+  },
+  {
+    "questions": ["allergies", "food allergies", "special diets"],
+    "answer": "Please inform us of any allergies or dietary restrictions so we can prepare your meal safely."
+  },
+  {
+    "questions": ["loyalty program", "rewards", "points system"],
+    "answer": "Join our loyalty program to earn points on every purchase and enjoy exclusive rewards and discounts."
+  },
+  {
+    "questions": ["takeout", "pickup", "to go orders"],
+    "answer": "Order your favorite dishes for pickup through our website or by phone."
+  },
+  {
+    "questions": ["gift shop", "souvenirs", "italian crafts"],
+    "answer": "Visit our gift shop for authentic Italian crafts, spices, and souvenirs to take home."
+  },
+  {
+    "questions": ["chef background", "experience", "training"],
+    "answer": "Our chef trained in Florence and Rome, combining traditional Italian flavors with international culinary techniques."
+  },
+  {
+    "questions": ["health measures", "sanitization", "covid protocols"],
+    "answer": "We follow strict health and sanitization protocols to ensure a safe dining environment for all guests."
+  },
+  {
+    "questions": ["chef recommendation", "best dishes", "popular meals"],
+    "answer": "Our chef recommends the Risotto alla Milanese and the Tiramisu as signature dishes loved by our guests."
+  },
+  {
+    "questions": ["sustainability", "eco-friendly", "green practices"],
+    "answer": "We are committed to sustainability by using locally sourced ingredients and minimizing waste with eco-friendly packaging."
+  },
+  {
+    "questions": ["parking fees", "is parking free", "parking cost"],
+    "answer": "Parking is completely free for all restaurant customers."
+  },
+  {
+    "questions": ["dress code", "what to wear", "attire"],
+    "answer": "Our dress code is smart casual; we recommend comfortable yet elegant attire for your visit."
+  },
+  {
+    "questions": ["pet friendly", "bring pets", "animals allowed"],
+    "answer": "Pets are welcome in our outdoor seating area. Please inform us in advance if you plan to bring your pet."
+  },
+  {
+    "questions": ["wifi speed", "internet quality", "online connectivity"],
+    "answer": "Enjoy fast and reliable free Wi-Fi with unlimited data throughout the restaurant."
+  },
+  {
+    "questions": ["kids entertainment", "play area", "child activities"],
+    "answer": "We offer a supervised kids play area with games and activities to keep your children entertained."
+  },
+  {
+    "questions": ["chef's story", "restaurant history", "about us"],
+    "answer": "Bella Cucina was founded in 2010, inspired by traditional Italian flavors combined with modern culinary techniques."
+  },
+  {
+    "questions": ["parking accessibility", "disabled parking", "handicap spots"],
+    "answer": "We provide dedicated accessible parking spots close to the entrance for guests with disabilities."
+  },
+  {
+    "questions": ["event catering", "off-site catering", "party catering"],
+    "answer": "We offer catering services for private events, weddings, and corporate parties both onsite and offsite."
+  },
+  {
+    "questions": ["menu allergens", "gluten info", "nut allergies"],
+    "answer": "Allergen information is clearly listed on our menu; please ask our staff for detailed guidance."
+  },
+  {
+    "questions": ["takeaway hours", "order pickup times", "pickup schedule"],
+    "answer": "Takeaway orders can be picked up during regular opening hours from 12 PM to 10 PM."
+  },
+  {
+    "questions": ["gift cards", "vouchers", "buy gift cards"],
+    "answer": "Gift cards are available for purchase online and in the restaurant, perfect for any occasion."
+  },
+  {
+    "questions": ["chef's specialties", "signature dishes", "house specials"],
+    "answer": "Our house specials include the Spaghetti alla Carbonara and the Classic Tiramisu, made fresh daily."
+  },
+  {
+    "questions": ["music playlist", "background music", "ambiance"],
+    "answer": "Enjoy a curated playlist of Italian and world music to enhance your dining experience."
+  },
+  {
+    "questions": ["reservations online", "book table online", "online booking"],
+    "answer": "Easily book your table online through our website or popular reservation platforms."
+  },
+  {
+    "questions": ["parking security", "is parking safe", "parking surveillance"],
+    "answer": "Our parking area is monitored 24/7 by security cameras for your peace of mind."
+  },
+  {
+    "questions": ["special occasions", "birthday parties", "celebrations"],
+    "answer": "Celebrate your special occasions with us! We offer customizable menus and decorations."
+  },
+  {
+    "questions": ["restaurant hours", "opening times", "closing times"],
+    "answer": "We are open Monday through Saturday, from 12 PM to 11 PM, closed on Sundays."
+  },
+  {
+    "questions": ["contact info", "phone number", "email"],
+    "answer": "Contact us at +39 055 1234567 or email info@bellacucina.it for inquiries and bookings."
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
