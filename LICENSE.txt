@@ -1,16 +1,20 @@
-Dark Work License Agreement
+# 🍽️ Restaurant Web Template — Modern Tailwind & React App
 
-Copyright © 2025 Dark Work  
-All rights reserved.
-
-This website and all its content, including but not limited to text, graphics, images, design, and code, are the exclusive property of Dark Work.
-
-No part of this website may be copied, reproduced, modified, distributed, transmitted, displayed, or used in any form or by any means, electronic or mechanical, without the prior express written permission of Dark Work.
-
-Any unauthorized use of this website or its content constitutes a violation of intellectual property rights and applicable laws, and may result in civil and criminal penalties.
-
-This license is intended to protect the intellectual property rights of Dark Work in full.
+A professional and responsive restaurant website template built with **React**, **Vite**, **Tailwind CSS**, and **TypeScript**. Includes sections for Menu, About, Contact, and an integrated **AI chatbot** for customer interaction.
 
 ---
 
-This License Agreement was created in 2025 by Dark Work.
+## 🚀 Features
+
+- 🌐 Fully responsive design (Mobile / Tablet / Desktop)
+- ⚡ Built with Vite + React + Tailwind + TypeScript
+- 🧠 Smart AI Chatbot (customizable via JSON)
+- 📁 Content managed through JSON files (`site-content.json`, `chat-responses.json`)
+- 🎯 SEO-ready with meta tags and Open Graph
+- 🎨 Smooth animations and interactive sections
+- 📦 Clean project structure, easy to customize
+
+---
+
+## 📁 Folder Structure
+
